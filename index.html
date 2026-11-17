@@ -1,50 +1,284 @@
+
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8" />
-    <title>Jacky's Homepage</title>
-    <!--Update with your name-->
-  </head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jacky — Private Archive</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 
-  <body>
-    <div>
-      <h1>Jacky</h1>
-      <!--Update with your name-->
-      <p>
-        This is my website for <i>IML300 class</i>. Write a little bit about
-        yourself.
-      </p>
+<body>
+    <div class="archive-wrapper">
+
+        <main class="case-file">
+
+            <header class="file-header">
+                <div class="file-meta">
+                    <span>PRIVATE INVESTIGATION ARCHIVE</span>
+                    <span>FILE NO. JX-300-26</span>
+                </div>
+
+                <div class="file-heading">
+                    <div>
+                        <p class="type-label">SUBJECT / PERSONAL RECORD</p>
+                        <h1>JACKY XING</h1>
+                        <p class="subtitle">
+                            Interactive Media / Creative Coding / Film
+                        </p>
+                    </div>
+
+                    <div class="stamp">CONFIDENTIAL</div>
+                </div>
+
+                <div class="file-details">
+                    <p><strong>COURSE:</strong> IML300</p>
+                    <p><strong>PERIOD:</strong> FALL 2026</p>
+                    <p><strong>STATUS:</strong> ONGOING ARCHIVE</p>
+                </div>
+
+                <p class="intro">
+                    A personal collection of interactive stories,
+                    visual experiments, and unfinished thoughts.
+                    Each record documents an attempt to explore
+                    the relationship between images, technology,
+                    and human experience.
+                </p>
+            </header>
+
+            <div class="divider-line"></div>
+
+            <nav class="archive-nav" aria-label="Archive navigation">
+                <a href="#projects">CASE FILES</a>
+                <a href="#exercises">EXPERIMENTS</a>
+                <a href="#presentation">RESEARCH</a>
+                <a href="#vibe-coding">OTHER RECORDS</a>
+            </nav>
+
+            <section class="archive-section" id="projects">
+                <div class="section-heading">
+                    <span class="section-number">SECTION 01</span>
+                    <h2>Case Files</h2>
+                    <p>Selected projects and interactive works.</p>
+                </div>
+
+                <article class="project-record">
+                    <div class="record-top">
+                        <span>CASE 001</span>
+                        <span>CREATIVE CODING</span>
+                    </div>
+
+                    <h3>Lost Signal</h3>
+                    <p>
+                        An experimental project exploring the
+                        relationship between sound, visual expression,
+                        and interaction through p5.js.
+                    </p>
+
+                    <div class="record-links">
+                        <a href="#" class="https://editor.p5js.org/JackyXing/sketches/ZaiTQI-79">OPEN CASE FILE</a>
+                    </div>
+                </article>
+
+                <article class="project-record featured">
+                    <div class="record-top">
+                        <span>CASE 002</span>
+                        <span>INTERACTIVE NARRATIVE</span>
+                    </div>
+
+                    <div class="record-layout">
+                        <div class="record-information">
+                            <h3>The Door</h3>
+
+                            <p>
+                                An interactive psychological horror
+                                experience exploring guilt, memory,
+                                and denial. Players investigate an
+                                abandoned hotel, recover fragmented
+                                memories, and choose whether to
+                                confront the truth.
+                            </p>
+
+                            <div class="record-links">
+                                <a
+                                    href="https://code223-jacky.github.io/TheDoor/"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    OPEN CASE FILE
+                                </a>
+
+                                <a
+                                    href="https://github.com/Code223-Jacky/TheDoor"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    SOURCE CODE
+                                </a>
+                            </div>
+                        </div>
+
+                        <a
+                            class="evidence-photo"
+                            href="https://code223-jacky.github.io/TheDoor/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            aria-label="Open The Last Door"
+                        >
+                            <div class="evidence-image">
+                                <span>THE DOOR</span>
+                                <span class="image-subtitle">
+                                    EVIDENCE / 002
+                                </span>
+                            </div>
+                            <span class="photo-caption">
+                                FIG. 02 — A MEMORY LEFT BEHIND
+                            </span>
+                        </a>
+                    </div>
+                </article>
+
+                <article class="project-record">
+                    <div class="record-top">
+                        <span>CASE 003</span>
+                        <span>NETWORKED CARE</span>
+                    </div>
+
+                    <h3>Unsaid</h3>
+                    <p>
+                        A developing concept exploring emotional
+                        distance and the difficulty of expressing
+                        affection within family relationships.
+                    </p>
+
+                    <div class="record-links">
+                        <span class="archive-status">IN DEVELOPMENT</span>
+                    </div>
+                </article>
+            </section>
+
+            <section class="archive-section" id="exercises">
+                <div class="section-heading">
+                    <span class="section-number">SECTION 02</span>
+                    <h2>Experimental Records</h2>
+                    <p>p5.js sketches and creative coding studies.</p>
+                </div>
+
+                <div class="exercise-grid">
+                    <article class="exercise-card">
+                        <span>EXPERIMENT 01</span>
+                        <h3>p5.js Sketch 1</h3>
+                        <div class="sketch-frame">
+                        <iframe class="p5-embed" src="https://editor.p5js.org/JackyXing/full/01BF-2m5S" title="Experiment 01 — p5.js" loading="lazy"></iframe>
+                        </div>
+                        <a href="https://editor.p5js.org/JackyXing/sketches/01BF-2m5S" class="pending-link">
+                            VIEW SOURCE CODE
+                        </a>
+                    </article>
+
+                    <article class="exercise-card">
+                        <span>EXPERIMENT 02</span>
+                        <h3>p5.js Sketch 2</h3>
+                        <div class="sketch-frame">
+                        <iframe class="p5-embed" src="https://editor.p5js.org/JackyXing/full/EKDSdPFZK" title="Experiment 02 — p5.js" loading="lazy"></iframe>
+                        </div>
+                        <p>CLICK AND DRAG ON THE CANVAS TO PLAY!</p>
+                        <a href="https://editor.p5js.org/JackyXing/sketches/EKDSdPFZK" class="pending-link">
+                            VIEW SOURCE CODE
+                        </a>
+                    </article>
+
+                    <article class="exercise-card">
+                        <span>EXPERIMENT 03</span>
+                        <h3>p5.js Sketch 3</h3>
+                        <div class="sketch-frame">
+                        <iframe class="p5-embed" src="https://editor.p5js.org/JackyXing/full/JfD1Jujac" title="Experiment 03 — p5.js" loading="lazy"></iframe>
+                        </div>
+                        <a href="https://editor.p5js.org/JackyXing/sketches/JfD1Jujac" class="pending-link">
+                            VIEW SOURCE CODE
+                        </a>
+                    </article>
+
+                    <article class="exercise-card">
+                        <span>EXPERIMENT 04</span>
+                        <h3>p5.js Sketch 4</h3>
+                        <div class="sketch-frame">
+                        <iframe class="p5-embed" src="https://editor.p5js.org/JackyXing/full/s1i71xRr2" title="Experiment 04 — p5.js" loading="lazy"></iframe>
+                        </div>
+                        <a href="https://editor.p5js.org/JackyXing/sketches/s1i71xRr2" class="pending-link">
+                            VIEW SOURCE CODE
+                        </a>
+                    </article>
+
+                    <article class="exercise-card">
+                        <span>EXPERIMENT 05</span>
+                        <h3>p5.js Sketch 5</h3>
+                        <div class="sketch-frame">
+                        <iframe class="p5-embed" src="https://editor.p5js.org/JackyXing/full/e1I0NBrOE" title="Experiment 05 — p5.js" loading="lazy"></iframe>
+                        </div>
+                        <a href="https://editor.p5js.org/JackyXing/sketches/e1I0NBrOE" class="pending-link">
+                            VIEW SOURCE CODE
+                        </a>
+                    </article>
+                </div>
+            </section>
+
+            <section class="archive-section" id="presentation">
+                <div class="section-heading">
+                    <span class="section-number">SECTION 03</span>
+                    <h2>Research Notes</h2>
+                    <p>Presentations and visual research.</p>
+                </div>
+
+                <article class="project-record">
+                    <div class="record-top">
+                        <span>RESEARCH 001</span>
+                        <span>PECHA KUCHA</span>
+                    </div>
+
+                    <h3>Cyberfeminism Index</h3>
+                    <p>
+                        A presentation examining Mindy Seu's
+                        Cyberfeminism Index and the relationship
+                        between technology, feminist histories,
+                        and digital archives.
+                    </p>
+
+                    <div class="record-links">
+                        <a href="#" class="pending-link">
+                            PRESENTATION
+                        </a>
+                    </div>
+                </article>
+            </section>
+
+            <section class="archive-section" id="vibe-coding">
+                <div class="section-heading">
+                    <span class="section-number">SECTION 04</span>
+                    <h2>Unclassified Materials</h2>
+                    <p>Vibe coding experiments and other discoveries.</p>
+                </div>
+
+                <div class="unclassified-card">
+                    <span class="archive-status">ARCHIVE IN PROGRESS</span>
+                    <h3>Vibe Coding Experiments</h3>
+                    <p>
+                        Additional interactive experiments and
+                        prototypes will be documented here.
+                    </p>
+                </div>
+            </section>
+
+            <footer class="file-footer">
+                <div class="footer-rule"></div>
+                <p>END OF RECORD / JACKY XING / 2026</p>
+                <p class="footer-note">
+                    SOME RECORDS REMAIN INCOMPLETE.
+                </p>
+            </footer>
+
+        </main>
     </div>
 
-    <div>
-      <h1>Presentation</h1>
-      <a href="">Pecha Kucha: Lorem Ipsum</a>
-    </div>
-
-    <div>
-      <h1>Projects</h1>
-      <h2>Project 1: Interactive Audio & Visual with p5.js</h2>
-      <a href="">Final: Lorem Ipsum</a>
-      <h2>Project 2: HyperNarrative</h2>
-      <a href="">Concept</a><br />
-      <a href="">Final: Lorem Ipsum</a>
-      <h2>Project 3: Networked Care</h2>
-      <a href="">Final: Lorem Ipsum</a>
-    </div>
-
-    <div>
-      <h1>Exercises</h1>
-      <ul>
-        <li><a href="">p5.js sketch 1</a></li>
-        <li><a href="">p5.js sketch 2</a></li>
-        <li><a href="">p5.js sketch 3</a></li>
-        <li><a href="">p5.js sketch 4</a></li>
-      </ul>
-    </div>
-
-    <!--add Vibe Coding Experiments Below-->
-    <h1>Vibe Coding Experiments</h1>
-
-    <footer>Fall, 2025.</footer>
-  </body>
+</body>
 </html>
